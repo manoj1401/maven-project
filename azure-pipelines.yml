@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: Maven@3
+  displayName: 'package'
   inputs:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
