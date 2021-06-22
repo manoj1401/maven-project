@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- manoj-learning
 
 pool:
   vmImage: ubuntu-latest
